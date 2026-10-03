@@ -406,14 +406,15 @@
                     token = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
                 } else {
                     // DİKKAT: GİTHUB İÇİN KENDİ VERİTABANI AYARLARINIZI BURAYA YAPIŞTIRIN!
-                    apiKey: "AIzaSyDNxbTOFwit25u20nZ1Fez2vjNEXna4K4E",
-  authDomain: "arderanaliz.firebaseapp.com",
-  projectId: "arderanaliz",
-  storageBucket: "arderanaliz.firebasestorage.app",
-  messagingSenderId: "343442116812",
-  appId: "1:343442116812:web:1e3e0c2643bd937bc87269",
-  measurementId: "G-7WKCLX1ZMK"
-};
+                    config = {
+                        apiKey: "AIzaSyDNxbTOFwit25u20nZ1Fez2vjNEXna4K4E",
+                        authDomain: "arderanaliz.firebaseapp.com",
+                        projectId: "arderanaliz",
+                        storageBucket: "arderanaliz.firebasestorage.app",
+                        messagingSenderId: "343442116812",
+                        appId: "1:343442116812:web:1e3e0c2643bd937bc87269",
+                        measurementId: "G-7WKCLX1ZMK"
+                    };
                 }
 
                 // Eğer kullanıcı API key girmemişse uyar ve yerel (offline) moda geç
